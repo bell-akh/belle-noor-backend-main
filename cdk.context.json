@@ -3,5 +3,31 @@
     "ap-south-1a",
     "ap-south-1b",
     "ap-south-1c"
-  ]
+  ],
+  "vpc-provider:account=560922746543:filter.isDefault=false:region=ap-south-1:returnAsymmetricSubnets=true": {
+    "vpcId": "vpc-0fc06a199dca8430f",
+    "vpcCidrBlock": "10.0.0.0/16",
+    "ownerAccountId": "560922746543",
+    "availabilityZones": [],
+    "subnetGroups": [
+      {
+        "name": "PublicSubnet",
+        "type": "Public",
+        "subnets": [
+          {
+            "subnetId": "subnet-0987cd8c606b1b177",
+            "cidr": "10.0.0.0/17",
+            "availabilityZone": "ap-south-1a",
+            "routeTableId": "rtb-0f8702630cf4015a2"
+          },
+          {
+            "subnetId": "subnet-0129d2fc012567d64",
+            "cidr": "10.0.128.0/17",
+            "availabilityZone": "ap-south-1b",
+            "routeTableId": "rtb-025e882035ee77a05"
+          }
+        ]
+      }
+    ]
+  }
 }
